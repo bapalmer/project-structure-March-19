@@ -1,0 +1,38 @@
+#########################################################################
+# 3-day R workshop
+# Advanced tidyverse
+# 17th March 2019
+# 02_readr.R
+#########################################################################
+# You can load the core tidyverse packages using library(tidyverse)
+# But you can also load each package individually just like any other package
+
+# library(readr) # Loaded when the tidyverse package is called
+
+# 1. Read in "brauer_data.csv" using the readr function read_csv()
+x <- read_csv("data/raw_data/brauer_data.csv")
+
+# Note that readr prints the column specification
+
+# 2. There are additional arguments that can be supplied to this function
+# Explore some of them manually by clicking the "Import Dataset" button
+
+# It is designed to flexibly parse many types of data found in the wild, 
+# including instances where the data unexpectedly changes
+# For example, the file contains NAs intermittently
+
+# 3. Let's repeat the process on an .xlsx copy using read_excel from read_xl package
+# Open the file first to examine the file structure and data
+
+library(readxl) # Not part of the core tidyverse so needs to be called explicitly 
+y <- read_excel("data/raw_data/example_excel_data.xlsx",
+                sheet = 2, # Specify the sheet of the file the data is in
+                
+                range = cell_cols("A5:C12")) # Select specific cells to import
+                
+# readr also allow you to write you data files back to disc
+# write_csv(data_object_to_save, "new_filename.csv")
+
+# Clean up your enviroment
+
+rm(x, y)

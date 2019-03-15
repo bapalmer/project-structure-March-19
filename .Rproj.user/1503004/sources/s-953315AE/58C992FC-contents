@@ -1,0 +1,24 @@
+#Example script to reproducibly import data from an Excel file
+
+# install.packages("janitor")
+
+library(readxl)
+library(janitor)
+
+# Define the data to import (here it is columns A to C)
+data <- read_xlsx("path_to_file/example_output.xlsx", range = cell_cols("A:C"),
+                  col_names = FALSE) %>% # Stops R from using the first row as for column names
+
+  rename(plate = "..1", # Rename the columns
+         info = "..2",
+         temp = "..3") %>%
+
+  remove_empty(which = "rows") %>% # janitor package function to remove rows that are blank
+
+  fill(plate) %>% # fill in the blanks
+
+  filter(temp != "Temperature") %>% # Remove redundant rows
+
+  mutate(temp = as.numeric(temp)) # Change specification to numeric
+
+

@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE,
                       fig.width  = 6, fig.height = 4)
 
 # The clean data file is called within each of the plots and analysis scripts
-# source("afternoon_session/scripts/03_pm_clean_data.R")
+# source("scripts/03_pm_clean_data.R")
 
 # To get the output to save in the docs folder use:
 # rmarkdown::render('all_together.now', output_file = 'docs/example_project_report.docx') in the console
@@ -31,7 +31,7 @@ library(tidyverse)
 
 ```{r Plots, echo = FALSE}
 
-source("afternoon_session/scripts/04_pm_plots.R")
+source("scripts/04_pm_plots.R")
 
 # The location of the Rmd file dictates whether the path to other files is intact
 who_ire
@@ -42,7 +42,7 @@ This table summarises the TB data for four countries with similar population siz
 
 ```{r Analysis, echo = FALSE}
 library(knitr)
-source("afternoon_session/scripts/05_pm_analysis.R")
+source("scripts/05_pm_analysis.R")
 ```
 
 ```{r, echo=FALSE}

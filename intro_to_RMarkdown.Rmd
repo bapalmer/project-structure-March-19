@@ -3,8 +3,8 @@ title: "Introduction to R Markdown"
 author: "Dr Brendan Palmer"
 date: "17th Marh 2019"
 output:
-  html_document: default
   word_document: default
+  html_document: default
 ---
 
 That first bit was a YAML header (optional). You can control "whole document" settings by tweaking the YAML header. With YAML, indentation is important, so just keep it simple first as you get up and running. 
@@ -98,7 +98,7 @@ or
 
 [Click me to go to tidyverse central!](http://tidyverse.org/ "Link to the tidyverse webpage")
 
-[Can place links to locations on your own system](/Users/bpalmer/Pictures/).
+[Can place links to locations on your own system](/Users/bpalmer/).
 
 ## Code chunks
 These can be added by clicking on the green insert button or  by typing....
@@ -106,9 +106,9 @@ These can be added by clicking on the green insert button or  by typing....
 
 ```
 
-As you can see if you click on the green button, there are a number of languages supported within Rmarkdown
+As you can see if you click on the green button, there are a number of languages supported within R Markdown
 
-The chucks can be given names, but two chunks can't have the same name. This has three advantages.
+The chunks can be given names, but two chunks can't have the same name. This has three advantages.
 1. You can more easliy navigate to specific code chunks
 1. Graphics produced by the chunks will have useful names
 1. You can set up networks of cached chunks to avoid re-running expensive computation on every run. 
@@ -121,15 +121,16 @@ The chucks can be given names, but two chunks can't have the same name. This has
 * `results = "hide"` - hides the printed output
 * `error = TRUE` - causes the render to continue even if the code returns an error 
 
+For examples of chunks open ~project-structure-March-19/docs/code_chunks.Rmd
+
 ```{r packages and setup, echo = FALSE}
 library(tidyverse)
 library(broom)
 library(knitr)
 ```
 
-
 ## Tables
-By default, RMarkdown prints data tables as you'd see them in the console
+By default, R Markdown prints data tables as you'd see them in the console
 
 ```{r Example table}
 mtcars[1:5, 1:10]
@@ -195,7 +196,7 @@ We can also generate the figures as we would in our R script, or call on figure 
 
 ```{r Figure made in the R Markdown document}
 
-source("afternoon_session/scripts/03_pm_clean_data.R")
+source("scripts/03_pm_clean_data.R")
 
 # Plot A - early on in the project
 who_ire <- who_tb_data %>%
@@ -214,7 +215,7 @@ who_ire
 
 ```{r Figure made in the R scripts, fig.align = "center", echo = FALSE}
 
-source("afternoon_session/scripts/04_pm_plots.R")
+source("scripts/04_pm_plots.R")
 
 who_ire
 
@@ -222,9 +223,7 @@ who_ire
 
 Personally, I prefer this second option as the document is less cluttered and changes are confined to the scripts, but you can also call on the image you stored in your plots folder.
 
-![Here's one I made earlier.](afternoon_session/plots/plot_of_tb_cases_2007.png)
-
-
+![Here's one I made earlier.](plots/plot_of_tb_cases_2007.png)
 
 
 ## Caching 
@@ -235,4 +234,3 @@ Pandoc can automatically generate citations and a bibliography in a number of st
 
 This is just as an FYI. We won't be able to cover it here. 
 
-Now, we'll close this project and move to the example_project folder
