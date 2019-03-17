@@ -535,4 +535,51 @@ Total 60 (delta 23), reused 0 (delta 0)[0K
 [0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
 rch-19[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ g[0K[?25hi[0K[?25lt[0K[5G[?25h[6G[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25h[16G[15G[?25l$ git commit -m[0K[?25h[17G[?25l$ git commit -m "[0K[?25he[0Kd[0Ki[0Kt[0Ke[0Kd[0K[25G[?25l$ git commit -m "edited t[0K[?25hi[0Kt[0Kl[0Ke[0Ks[0K"[0K[?25l
+[0K[?25h[master 05e9517] edited titles[0K[?25l
+ Committer: Palmer <b.palmer@ucc.ie>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly. Run the[0K
+following command and follow the instructions in your editor to edit[0K
+your configuration file:[0K
+[0K
+    git config --global --edit[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 6 files changed, 49 insertions(+)[0K
+ rename docs/{2019-03-17_tidyverse_plus_projects_equals_happiness.pdf => Lecture-tidyverse_pl[0Ku
+s_projects_equals_happiness.pdf} (100%)[0K
+ rename docs/{2018-11-01_Github_to_RStudio.pdf => Version_control_with_git_and GitHub.pdf} (1[0K0
+0%)[0K
+ rename docs/cheatsheets/{02_dplyr-cheatsheet.pdf => dplyr-cheatsheet.pdf} (100%)[0K
+ rename docs/cheatsheets/{03_ggplot2-cheatsheet.pdf => ggplot2-cheatsheet.pdf} (100%)[0K
+ rename docs/cheatsheets/{01_readr-tibble-tidyr-cheatsheet.pdf => readr-tibble-tidyr-cheatshe[0Ke
+t.pdf} (100%)[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 15, done.[0K[?25l
+Counting objects: 100% (15/15), done.[0K
+Delta compression using up to 8 threads.[0K
+Compressing objects: 100% (8/8), done.[0K
+Writing objects: 100% (8/8), 1.57 KiB | 536.00 KiB/s, done.[0K
+Total 8 (delta 4), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[0K[?25l
+[0K[?25hTo https://github.com/bapalmer/project-structure-March-19.git[0K[?25l
+   ccb4253..05e9517  master -> master[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;:/c/Users/bpalmer/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-March-19[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
 [0K[?25h

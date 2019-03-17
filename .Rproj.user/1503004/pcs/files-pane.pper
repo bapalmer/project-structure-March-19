@@ -1,6 +1,10 @@
 {
-    "path" : "~/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-March-19",
+    "path" : "~/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-March-19/scripts",
     "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        },
         {
             "ascending" : false,
             "columnIndex" : 3
@@ -8,10 +12,6 @@
         {
             "ascending" : false,
             "columnIndex" : 4
-        },
-        {
-            "ascending" : true,
-            "columnIndex" : 2
         }
     ]
 }
