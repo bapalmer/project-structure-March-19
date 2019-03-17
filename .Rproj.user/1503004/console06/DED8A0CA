@@ -486,4 +486,53 @@ eets/rmarkdown-2.0.pdf left in tree.[0K
 [0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
 rch-19[0;36m (master|MERGING)[0m[0K
 $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/1503004/pcs/files-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/1503004/pcs/source-pane.pper.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/1503004/pcs/windowlayoutstate.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/1503004/pcs/workbench-pane.pper.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/1503004/rmd-outputs.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/1503004/sources/prop/B8DC2CC8.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master|MERGING)[0m[0K
+$[0K[3G[?25h[?25l$ git add -A[0K[3G[?25h[13G[?25l$ git pull[0K[?25h[?25l$ git add -A[0K[?25h[?25l$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25ha[0Kd[0Kd[0Ke[0Kd[0K[24G[?25l$ git commit -m "added l[0K[?25he[0Kc[0Kt[0Ku[0Kr[0Ke[0K[32G[?25l$ git commit -m "added lecture n[0K[?25ht[0Ke[0K[?25l$ git commit -m "added lecture nt[0K[?25h[?25l$ git commit -m "added lecture n[0K[?25ho[0Kt[0Ke[0Ks[0K[38G[?25l$ git commit -m "added lecture notes a[0K[?25hn[0Kd[0K[42G[?25l$ git commit -m "added lecture notes and c[0K[?25hh[0Ke[0Ka[0Kt[0Ks[0Kh[0Ke[0Ke[0Kt[0Ks[0K"[0K[?25l
+[0K[?25h[master ccb4253] added lecture notes and cheatsheets[0K[?25l
+ Committer: Palmer <b.palmer@ucc.ie>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly. Run the[0K
+following command and follow the instructions in your editor to edit[0K
+your configuration file:[0K
+[0K
+    git config --global --edit[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hEnumerating objects: 102, done.[0K[?25l
+Counting objects:  22% (19/83)[0K[1G[?25hCounting objects: 100% (83/83), done.[0K[?25l
+Delta compression using up to 8 threads.[0K
+Compressing objects:  52% (28/53)[0K[1G[?25h[?25lCompressing objects:  92% (49/53)[0K[1G[?25h[?25lCompressing objects:  94% (50/53)[0K[1G[?25h[?25lCompressing objects:  96% (51/53)[0K[1G[?25h[?25lCompressing objects:  98% (52/53)[0K[1G[?25h[?25lCompressing objects: 100% (53/53)[0K[1G[?25hCompressing objects: 100% (53/53), done.[0K[?25l
+Writing objects:  43% (26/60)[0K[1G[?25h[?25lWriting objects:  43% (26/60), 984.00 KiB | 502.00 KiB/s[0K[1G[?25h[?25lWriting objects:  43% (26/60), 1.57 MiB | 536.00 KiB/s[0K[1G[?25h[?25lWriting objects:  43% (26/60), 2.20 MiB | 556.00 KiB/s[0K[1G[?25h[?25lWriting objects:  43% (26/60), 2.82 MiB | 568.00 KiB/s[0K[1G[?25h[?25lWriting objects:  43% (26/60), 3.45 MiB | 577.00 KiB/s[0K[1G[?25h[?25lWriting objects:  46% (28/60), 3.45 MiB | 577.00 KiB/s[0K[1G[?25h[?25lWriting objects:  46% (28/60), 4.04 MiB | 613.00 KiB/s[0K[1G[?25h[?25lWriting objects:  48% (29/60), 4.34 MiB | 612.00 KiB/s[0K[1G[?25h[?25lWriting objects:  48% (29/60), 4.64 MiB | 613.00 KiB/s[0K[1G[?25h[?25lWriting objects:  50% (30/60), 4.64 MiB | 613.00 KiB/s[0K[1G[?25h[?25lWriting objects:  50% (30/60), 5.27 MiB | 611.00 KiB/s[0K[1G[?25h[?25lWriting objects:  51% (31/60), 5.58 MiB | 608.00 KiB/s[0K[1G[?25h[?25lWriting objects:  51% (31/60), 6.49 MiB | 596.00 KiB/s[0K[1G[?25h[?25lWriting objects:  51% (31/60), 7.12 MiB | 598.00 KiB/s[0K[1G[?25h[?25lWriting objects:  51% (31/60), 7.43 MiB | 597.00 KiB/s[0K[2G[?25h[1G[?25lWriting objects:  51% (31/60), 8.05 MiB | 597.00 KiB/s[0K[1G[?25h[?25lWriting objects:  51% (31/60), 8.05 MiB | 595.00 KiB/s[0K[1G[?25h[?25lWriting objects:  51% (31/60), 8.68 MiB | 611.00 KiB/s[0K[1G[?25h[?25lWriting objects:  53% (32/60), 8.68 MiB | 611.00 KiB/s[0K[1G[?25h[?25lWriting objects:  53% (32/60), 9.28 MiB | 608.00 KiB/s[0K[1G[?25h[?25lWriting objects:  55% (33/60), 9.59 MiB | 605.00 KiB/s[0K[1G[?25h[?25lWriting objects:  55% (33/60), 9.90 MiB | 605.00 KiB/s[0K[1G[?25h[?25lWriting objects:  58% (35/60), 10.21 MiB | 606.00 KiB/s[0K[1G[?25h[?25lWriting objects:  93% (56/60), 10.21 MiB | 606.00 KiB/s[0K[1G[?25h[?25lWriting objects: 100% (60/60), 10.21 MiB | 606.00 KiB/s[0K[1G[?25hWriting objects: 100% (60/60), 10.40 MiB | 588.00 KiB/s, done.[0K[?25l
+Total 60 (delta 23), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas:  47% (11/23)[0K[41G[?25lremote: Resolving deltas: 100% (23/23), completed with 10 local objects.[0K
+[0K[?25hTo https://github.com/bapalmer/project-structure-March-19.git[0K[?25l
+   54c9897..ccb4253  master -> master[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0K[?25lt[0K[5G[?25h[6G[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
 [0K[?25h
