@@ -428,4 +428,62 @@ $[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks
 [0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
 rch-19[0;36m (master)[0m[0K
 $[0K[3G[?25h[?25l$ git push[0K[?25h[?25l$ git commit -m "added lecture notes"[0K[?25h[?25l$ git add -A[0K[?25h[?25l
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git add -A[0K[3G[?25h[13G[?25l$ git push[0K[?25h[?25l$ git commit -m "added lecture notes"[0K[?25h[?25l
+[0K[?25h[master bb612a0] added lecture notes[0K[?25l
+ Committer: Palmer <b.palmer@ucc.ie>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly. Run the[0K
+following command and follow the instructions in your editor to edit[0K
+your configuration file:[0K
+[0K
+    git config --global --edit[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 1 file changed, 92 insertions(+)[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git commit -m "added lecture notes"[0K[?25h[?25l$ git add -A[0K[?25h[?25l$ git push[0K[?25h[?25l
+[0K[?25hTo https://github.com/bapalmer/project-structure-March-19.git[0K[?25l
+ [0;31m! [rejected]       [0m master -> master (fetch first)[0K
+[0;31merror: failed to push some refs to 'https://github.com/bapalmer/project-structure-March-19.gi[0Kt
+'[0m[0K
+[0;33mhint: Updates were rejected because the remote contains work that you do[0m[0K
+[0;33mhint: not have locally. This is usually caused by another repository pushing[0m[0K
+[0;33mhint: to the same ref. You may want to first integrate the remote changes[0m[0K
+[0;33mhint: (e.g., 'git pull ...') before pushing again.[0m[0K
+[0;33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[0m[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;:/c/Users/bpalmer/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-March-19[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[?25l
+[0K[?25hremote: Enumerating objects: 12, done.[0K[?25l
+remote: Counting objects:  16% (2/12)[0K[1A[39G[?25h[?25l
+remote: Counting objects: 100% (12/12), done.[0K
+remote: Compressing objects: 100% (9/9), done.[0K
+remote: Total 9 (delta 6), reused 0 (delta 0), pack-reused 0[0K
+[0K[?25h[?25lUnpacking objects:  22% (2/9)[0K[1G[?25h[?25lUnpacking objects:  55% (5/9)[0K[1G[?25h[?25lUnpacking objects:  88% (8/9)[0K[1G[?25hUnpacking objects: 100% (9/9), done.[0K[?25l
+[0K[?25hFrom https://github.com/bapalmer/project-structure-March-19[0K[?25l
+   c70015d..54c9897  master     -> origin/master[0K
+[0K[?25hCONFLICT (rename/delete): docs/rmarkdown-reference.pdf deleted in 54c98977bb000fd02e26ad506a0[0Kc[?25l
+ba52431698b3 and renamed to docs/cheatsheets/rmarkdown-reference.pdf in HEAD. Version HEAD of[0K
+docs/cheatsheets/rmarkdown-reference.pdf left in tree.[0K
+CONFLICT (rename/delete): docs/rmarkdown-2.0.pdf deleted in 54c98977bb000fd02e26ad506a0cba524[0K3
+1698b3 and renamed to docs/cheatsheets/rmarkdown-2.0.pdf in HEAD. Version HEAD of docs/cheats[0Kh
+eets/rmarkdown-2.0.pdf left in tree.[0K
+[0K[?25hAutomatic merge failed; fix conflicts and then commit the result.[0K[?25l
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master|MERGING)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
 [0K[?25h

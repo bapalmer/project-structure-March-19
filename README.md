@@ -5,7 +5,7 @@
 **This tutorial is broken up into two main sections**
 
 1.  An introduction to making your research reproducible
-    + First we go through the do's and don't of structuring your research projects and analysis scripts
+    + First we go through the do's and don't of structuring your research projects and writing analysis scripts
 
 2. Organising your code
     + R-projects and the tidyverse
