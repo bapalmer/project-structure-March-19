@@ -336,4 +336,96 @@ $[0K[3G[?25h[0m[0K]0;:/c/Users/bpalmer/Documents/R_Users_Workshop/T_L_work
 [0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
 rch-19[0;36m (master)[0m[0K
 [?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/1503004/pcs/files-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/1503004/pcs/workbench-pane.pper.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/1503004/rmd-outputs.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/1503004/sources/prop/B8DC2CC8.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/1503004/sources/prop/INDEX.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25hm[0Ki[0Kn[0Ko[0Kr[0K[24G[23G[?25l$ git commit -m "mino[0K[?25h[?25l$ git commit -m "min[0K[?25h[?25l$ git commit -m "mi[0K[?25h[?25l$ git commit -m "m[0K[?25h[?25l$ git commit -m "[0K[19G[?25h[18G[?25l$ git commit -m "a[0K[?25hd[0Kd[0K[22G[?25l$ git commit -m "add l[0K[?25hc[0K[?25l$ git commit -m "add l[0K[24G[?25h[23G[?25l$ git commit -m "add le[0K[?25hc[0Kt[0Ku[0K[?25lr[0K[27G[?25h[28G[?25l$ git commit -m "add lecture[0K[?25h[30G[?25l$ git commit -m "add lecture n[0K[?25ho[0Kt[0Ke[0K[?25l$ git commit -m "add lecture not[0K[?25h[?25l$ git commit -m "add lecture no[0K[?25h[?25l$ git commit -m "add lecture n[0K[?25h[?25l$ git commit -m "add lecture[0K[30G[?25h[?25l$ git commit -m "add lecture n[0K[?25ho[0Kt[0Ke[0Ks[0K"[0K[35G[34G[33G[32G[31G[29G[27G[26G[25G[24G[23G[22G[21G[20G[?25l$ git commit -m "aded lecture notes"[0K[21G[?25h[?25l$ git commit -m "add lecture notes"[0K[21G[?25h[20G[21G[?25l$ git commit -m "adde lecture notes"[0K[22G[?25h[?25l$ git commit -m "added lecture notes"[0K[23G[?25h[?25l
+[0K[?25h[master bb3c4a2] added lecture notes[0K[?25l
+ Committer: Palmer <b.palmer@ucc.ie>[0K
+Your name and email address were configured automatically based[0K
+on your username and hostname. Please check that they are accurate.[0K
+You can suppress this message by setting them explicitly. Run the[0K
+following command and follow the instructions in your editor to edit[0K
+your configuration file:[0K
+[0K
+    git config --global --edit[0K
+[0K
+After doing this, you may fix the identity used for this commit with:[0K
+[0K
+    git commit --amend --reset-author[0K
+[0K
+ 52 files changed, 302 insertions(+), 2060 deletions(-)[0K
+ rewrite .Rproj.user/1503004/console06/INDEX001 (86%)[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/15281E47-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/16762EEF-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/175BBDB5-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/1ECB08DD-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/20D38F10-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/28464C34-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/29105E85-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/3AA07E8C-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/3BE0C2E3-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/3D88B89-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/51A5A7CE-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/58C992FC-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/5AD24A64-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/627BF8AC-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/6D3A42F3-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/6EC22366-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/72F4BE4A-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/7772CBB4-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/7F063F07-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/8A02FB0B-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/8ADE55F2-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/A98C2725-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/BE46A11C-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/D63A0FB-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/DF538238-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/E957D275-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/F31B8B14-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/FB8BDFF4-contents[0K
+ delete mode 100644 .Rproj.user/1503004/sources/s-953315AE/lock_file[0K
+ create mode 100644 .gitignore[0K
+ create mode 100644 docs/2019-03-17_tidyverse_plus_projects_equals_happiness.pdf[0K
+ create mode 100644 docs/cheatsheets/01_readr-tibble-tidyr-cheatsheet.pdf[0K
+ create mode 100644 docs/cheatsheets/02_dplyr-cheatsheet.pdf[0K
+ create mode 100644 docs/cheatsheets/03_ggplot2-cheatsheet.pdf[0K
+ rename docs/{ => cheatsheets}/rmarkdown-2.0.pdf (100%)[0K
+ rename docs/{ => cheatsheets}/rmarkdown-reference.pdf (100%)[0K
+ create mode 100644 docs/cheatsheets/rstudio-IDE-cheatsheet.pdf[0K
+ create mode 100644 docs/cheatsheets/syntax-comparison-cheatsheet.pdf[0K
+ create mode 100644 docs/cheatsheets/tidyverse-beginners-cheatsheet.pdf[0K
+ create mode 100644 docs/intro_to_RMarkdown_files/figure-docx/fig-1.png[0K
+ create mode 100644 docs/intro_to_RMarkdown_files/figure-docx/unnamed-chunk-4-1.png[0K
+ create mode 100644 docs/intro_to_RMarkdown_files/figure-docx/unnamed-chunk-5-1.png[0K
+ create mode 100644 intro_to_RMarkdown.docx[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hTo https://github.com/bapalmer/project-structure-March-19.git[0K[?25l
+ [0;31m! [rejected]       [0m master -> master (fetch first)[0K
+[0;31merror: failed to push some refs to 'https://github.com/bapalmer/project-structure-March-19.gi[0Kt
+'[0m[0K
+[0;33mhint: Updates were rejected because the remote contains work that you do[0m[0K
+[0;33mhint: not have locally. This is usually caused by another repository pushing[0m[0K
+[0;33mhint: to the same ref. You may want to first integrate the remote changes[0m[0K
+[0;33mhint: (e.g., 'git pull ...') before pushing again.[0m[0K
+[0;33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[0m[0K
+[0K[?25h[?25l
+[0;32mbpalmer@ph-wgb5 [0;35m [0;33m~/Documents/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-M[0Ka
+rch-19[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git push[0K[?25h[?25l$ git commit -m "added lecture notes"[0K[?25h[?25l$ git add -A[0K[?25h[?25l
 [0K[?25h
