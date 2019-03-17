@@ -1,9 +1,13 @@
 {
-    "path" : "~",
+    "path" : "~/R_Users_Workshop/T_L_workshop/stats-teaching/project-structure-March-19/scripts",
     "sortOrder" : [
         {
             "ascending" : true,
             "columnIndex" : 2
+        },
+        {
+            "ascending" : false,
+            "columnIndex" : 3
         }
     ]
 }

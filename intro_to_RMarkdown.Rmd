@@ -1,7 +1,7 @@
 ---
 title: "Introduction to R Markdown"
 author: "Dr Brendan Palmer"
-date: "17th Marh 2019"
+date: "17th March 2019"
 output:
   word_document: default
   html_document: default
@@ -42,7 +42,7 @@ The benefit of all of this is that the numerical information in the document is 
 
 # Formatting
 ## Headers
-That hash symbol (\#) indicates the header levels. Two hash symbols together \#\# give us our second header level. Because it has a specific purpose, I had to escap it with the backslash (\\).
+That hash symbol (\#) indicates the header levels. Two hash symbols together \#\# give us our second header level. Because it has a specific purpose, I had to escape it with the backslash (\\).
 
 # This is header level 1
 ## This is header level 2
@@ -55,9 +55,9 @@ _And so is this text._
 **This text is in bold.**
 __And so is this text.__
 
-~~This text is rendered with strikethrough.~~
+~~This text is rendered with strike through.~~
 
-`Code is surrounded by the back ticks` which changes its appearence in the finished document. This can be useful in the finished document. Today for example we have used the `gather()` and `separate()` function from the `tidyr` package.
+`Code is surrounded by the back ticks` which changes its appearance in the finished document. This can be useful in the finished document. Today for example we have used the `gather()` and `separate()` function from the `tidyr` package.
 
 FYI, This is a paragraph.
 
@@ -109,7 +109,7 @@ These can be added by clicking on the green insert button or  by typing....
 As you can see if you click on the green button, there are a number of languages supported within R Markdown
 
 The chunks can be given names, but two chunks can't have the same name. This has three advantages.
-1. You can more easliy navigate to specific code chunks
+1. You can more easily navigate to specific code chunks
 1. Graphics produced by the chunks will have useful names
 1. You can set up networks of cached chunks to avoid re-running expensive computation on every run. 
 
@@ -147,7 +147,7 @@ knitr::kable(mtcars[1:5, ], digits = 1,
 ```
 
 ### Statistical outputs
-It's also possible to format the outputs of your statistcial test for quick reporting.
+It's also possible to format the outputs of your statistical test for quick reporting.
 
 ```{r statistical model output, echo = FALSE}
 
@@ -227,7 +227,7 @@ Personally, I prefer this second option as the document is less cluttered and ch
 
 
 ## Caching 
-Normally each knit of a document starts from a  clean slate. This great for reproducibility, but painful if some computations take a long time to run. You can avoid this by setting `cached = TRUE`. This will save the output of the chunk to a named file on disk. On susequent runs knitr will check to see if the code has changed, and if it hasn't, will reuse the cached results.
+Normally each knit of a document starts from a  clean slate. This great for reproducibility, but painful if some computations take a long time to run. You can avoid this by setting `cached = TRUE`. This will save the output of the chunk to a named file on disk. On subsequent runs knitr will check to see if the code has changed, and if it hasn't, will reuse the cached results.
 
 ## Bibliographies and citations
 Pandoc can automatically generate citations and a bibliography in a number of styles.
