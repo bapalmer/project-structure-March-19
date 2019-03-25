@@ -12,6 +12,7 @@
 
 2. Organising your code
     + R-projects and the tidyverse
+        + Scripting workflows
     + Reporting your work using R Markdown documents
  
     
