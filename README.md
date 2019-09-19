@@ -6,9 +6,13 @@
 
 1.  An introduction to making your research reproducible
     + First we go through the do's and don't of structuring your research projects and writing analysis scripts
+        + File names
+        + Meta data
+        + Consistency
 
 2. Organising your code
     + R-projects and the tidyverse
+        + Scripting workflows
     + Reporting your work using R Markdown documents
  
     
